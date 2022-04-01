@@ -4,14 +4,22 @@
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
+
+    --text-color: #667085;
+    --main-color: #8E2424;
+    --dark-color: #101828;
 }
+
+body {
+    background-color: #ffffff;
+    height: 100vh;
+    width: 100%;
+  }
 
 .container {
     align-items: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 80px;
 }
+

@@ -1,50 +1,38 @@
-.container__nav {
+.header__container {
     align-items: center;
     display: flex;
-    height: 44px;
-    justify-content: space-between;
-    width: 1280px;
+    flex-direction: column;
+    height: 25.44rem;
+    width: 80rem;
 }
 
-.container__logo {
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-    height: 27px;
-    justify-content: space-between;
-    width: 148px;
-}
-
-.header__nav ul {
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-    height: 32px;
-    justify-content: space-between;
-    text-decoration: none;
-    width: 362px;
-}
-
-li a{
-    text-decoration: none;
-}
-
-.space {
-    height: 32px;
-    width: 142px;
-}
-
-.button__area {
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-    height: 44px;
-    justify-content: space-between;
-    width: 207px;
-}
-
-.button__area a {
+.header__sub {
+    color: var(--main-color);
     font-size: 1rem;
+    height: 1.5rem;
     line-height: 1.5rem;
-    text-decoration: none;
+    padding: 6rem 0 0;
+    text-align: center;
+    width: 4.875rem;
+}
+
+.header__title {
+    text-align: center;
+    color: var(--dark-color);
+    font-size: 3rem;
+    height: 3.75rem;
+    line-height: 3.75rem;
+    font-weight: 600, Semi Bold;
+    padding: 1.5rem 0 0;
+    width: 652px;
+}
+
+.header__text {
+    color: var(--text-color);
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+    padding: 1.5rem 0 6rem 0;
+    height: 83px;
+    text-align: center;
+    width: 792px;
 }

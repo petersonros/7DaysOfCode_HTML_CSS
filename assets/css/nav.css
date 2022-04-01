@@ -1,0 +1,90 @@
+.nav__container {
+    align-items: center;
+    display: flex;
+    height: 44px;
+    justify-content: space-between;
+    padding: 1.125rem 0;
+    width: 1280px;
+}
+
+.container__logo {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    height: 27px;
+    justify-content: space-between;
+    width: 148px;
+}
+
+.header__nav {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: 362px;
+}
+
+.header__nav a {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    height: 32px;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+li a{
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+li a:hover {
+    transform: scale(1.1);
+}
+
+.space {
+    height: 32px;
+    width: 142px;
+}
+
+.button__area {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    height: 44px;
+    justify-content: space-between;
+    width: 207px;
+}
+
+.button__area a {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    text-decoration: none;
+}
+
+.btn__login {
+    background-color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    height: 44px;
+    width: 83px;
+}
+
+.btn__login:hover {
+    transform: scale(1.1);
+}
+
+.btn__register {
+    background-color: var(--main-color);
+    border: none;
+    border-radius: 7px;
+    height: 44px;
+    width: 112px;
+}
+
+.btn__register:hover {
+    transform: scale(1.1);
+}
+
+.btn__register a {
+    color: #ffffff;
+}
