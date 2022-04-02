@@ -1,0 +1,40 @@
+.metrics__container {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    height: 288px;
+    justify-content: center;
+    width: 1440px;
+}
+
+.metrics__area {
+    align-items: flex-start;
+    display: flex;
+    height: 192px;
+    flex-direction: column;
+    padding: 0 1rem 6rem 1rem;
+    width: 280px;
+}
+
+.metrics__number {
+    color: var(--main-color);
+    font-size: 60px;
+    font-weight: 600, Semi Bold;
+    line-height: 72px;
+
+}
+
+.metrics__title {
+    color: var(--dark-color);
+    font-size: 18px;
+    font-weight: 500, Medium;
+    line-height: 28px;
+    padding-top: 12px;
+}
+
+.metrics__text {
+    color: var(--text-color);
+    font-size: 1rem;
+    line-height: 1.5rem;
+    padding: .5rem 0 0;
+}

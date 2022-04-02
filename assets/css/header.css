@@ -1,4 +1,4 @@
-.header__container {
+.about__container {
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -6,7 +6,7 @@
     width: 80rem;
 }
 
-.header__sub {
+.about__sub {
     color: var(--main-color);
     font-size: 1rem;
     height: 1.5rem;
@@ -16,7 +16,7 @@
     width: 4.875rem;
 }
 
-.header__title {
+.about__title {
     text-align: center;
     color: var(--dark-color);
     font-size: 3rem;
@@ -27,7 +27,7 @@
     width: 652px;
 }
 
-.header__text {
+.about__text {
     color: var(--text-color);
     font-size: 1.25rem;
     line-height: 1.875rem;
