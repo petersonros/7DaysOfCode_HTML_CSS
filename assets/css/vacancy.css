@@ -1,0 +1,62 @@
+.vacancy__container {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 768px;
+}
+
+.vacancy__category {
+    color: var(--dark-color);
+    font-size: 20px;
+    height: 30px;
+    line-height: 30px;
+    padding: 64px 0 32px;
+    width: 768px;
+}
+
+.vacancy__box {
+    align-items: flex-start;
+    border: 1px solid #EAECF0;
+    box-sizing: border-box;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    height: 136px;
+    justify-content: flex-start;
+    margin: 0 0 1.5rem;
+    width: 768px;
+}
+
+.vacancy__title {
+    color: var(--dark-color);
+    font-size: 18px;
+    height: 28px;
+    line-height: 28px;
+    padding: 24px 24px 0;
+    width: 720px;
+}
+
+.vacancy__info {
+    display: flex;
+    flex-direction: row;
+    height: 24px;
+    justify-content: flex-start;
+    padding: 32px 0 0;
+    width: 720px;
+}
+
+.vacancy__time {
+    color: var(--text-color);
+    font-size: 16p;
+    line-height: 24px;
+    padding: 0 24px 0;
+    width: 68px;
+}
+
+.vacancy__pay {
+    color: var(--text-color);
+    font-size: 16p;
+    line-height: 24px;
+    width: 173px;
+}
