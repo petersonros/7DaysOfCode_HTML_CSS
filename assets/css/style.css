@@ -1,17 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500&family=Montserrat:wght@100;400;700&family=Open+Sans:wght@300;400;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
 :root {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 500;
+    font-family: 'Inter', sans-serif;
 
+    --light-color: #ffffff;
+    --bright-color: #EAECF0;
+    --trasnparent-color: rgba(142, 36, 36, .05);
     --text-color: #667085;
     --main-color: #8E2424;
     --dark-color: #101828;
 }
 
 body {
-    background-color: #ffffff;
+    background-color: var(--light_color);
     height: 100vh;
     width: 100%;
 }

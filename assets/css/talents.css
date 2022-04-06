@@ -9,7 +9,7 @@
 }
 
 .talents__open {
-    background: rgba(142, 36, 36, .05);
+    background: var(--bright-color);
     border-radius: 1rem;
     color: var(--main-color);
     font-size: .875rem;
