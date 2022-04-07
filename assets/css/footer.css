@@ -1,0 +1,70 @@
+.footer__container {
+    align-items: center;
+    background: var(--clear-color);
+    display: flex;
+    flex-direction: column;
+    height: 430px;
+    width: 100%;
+}
+
+.footer__title {
+    color: var(--dark-color);
+    font-weight: 600;
+    font-size: 36px;
+    height: 44px;
+    line-height: 44px;
+    margin: 96px 0 0;
+    text-align: center;
+    width: 48rem;
+}
+
+.footer__sub {
+    color: var(--text-color);
+    font-size: 1.25rem;
+    font-weight: 400;
+    height: 1.875rem;
+    line-height: 1.875rem;
+    margin: 1.25rem 0 0;
+    text-align: center;
+    width: 48rem;
+}
+
+.footer__form {
+    margin: 40px 0 0;
+    height: 48px;
+    width: auto;
+}
+
+.footer__input {
+    background: var(--light-color);
+    border: 1px solid var(--border-color);
+    border-radius: .5rem;
+    height: 48px;
+    margin: 0 .5rem 0;
+    padding: 0;
+    width: 360px;
+}
+
+.footer__button {
+    background: var(--main-color);
+    border-radius: 8px;
+    border: none;
+    box-shadow: 0px 1px 2px var(--shadow-color);
+    color: var(--light-color);
+    font-size: 1rem;
+    line-height: 1.5rem;
+    height: 48px;
+    margin: 0 .5rem 0;
+    width: 116px;
+}
+
+.footer__copyright {
+    color: var(--copyright-color);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    height: 1.5rem;
+    margin: 2rem 0 0;
+    text-align: center;
+    width: 768px;
+}
